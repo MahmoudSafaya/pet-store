@@ -1,0 +1,264 @@
+*{
+    box-sizing: border-box;
+    line-height: 1.6;
+    margin: 0;
+}
+* img{
+    border-radius: 20px;
+}
+* h1{
+    color: rgb(212, 107, 107);
+}
+
+/* header */
+.container{
+    height: 70px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.container a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 15px;
+    color: brown;
+}
+.container a:hover{
+    color:rgb(0,0,0,0.8);
+}
+.container .logo{
+    width: 60%;
+    float: left;
+    padding-left: 100px;
+}
+.container h1 span{
+    color: brown;
+}
+.container .navbar{
+    width: 40%;
+    float: right;
+    margin-top: 8px;
+}
+.background{
+    margin: auto;
+    background-image: url(./petimg/background.jpg);
+    background-size:cover;
+    height:675px;
+    position: relative;
+}
+
+.overlay{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 50;
+    background: rgba(0,0,0,0.3);
+    text-align: center;
+    padding-top: 280px;
+}
+
+.overlay h1,
+.overlay p{
+    color: rgb(252, 248, 248);
+    font-size: 50px;
+    font-weight: bold;
+}
+.overlay p{
+    color: rgb(212, 107, 107);
+}
+/* header */
+
+/*animal_container*/
+
+.animal_container{
+    margin-top: 10px;
+    padding: 40px 100px 40px 100px;
+    margin-bottom: 25px;
+}
+.animal_container h1{
+    margin: 40px 0;
+    text-align: center;
+    color: rgb(0,0,0,0.8);
+    font-size: 40px;
+}
+.box{
+    width: 45%;
+    border: none;
+    text-align: center;
+    padding: 8px;
+}
+.box h1{
+    margin-bottom: 10px;
+}
+.dog{
+    float: left;
+}
+.cat{
+    float: right;
+}
+.fish{
+    float: left;
+    margin-top: 15px;
+}
+.bird{
+    float: right;
+    margin-top: 15px;
+}
+button{
+    padding: 10px;
+    margin: 20px 0 40px;
+    color: brown;
+    width: 140px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: rgb(238, 169, 113);
+    border: none;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.4);
+}
+
+/* animal_container */
+.dog_page_container div,
+.cat_page_container div,
+.fish_page_container div,
+.bird_page_container div
+{
+    display: inline-block;
+    padding-left: 30px;
+}
+.dog_page_container span,
+.cat_page_container span,
+.fish_page_container span,
+.bird_page_containe span
+{
+    color: #555;
+}
+.dog_product,
+.cat_product,
+.fish_product,
+.bird_product
+{
+    margin: 40px;
+    width: 19%;
+    text-align: center;
+}
+.dog_product img,
+.cat_product img,
+.fish_product img,
+.bird_product img
+{
+    width: 100%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+    margin-bottom: 30px;
+}
+
+
+/*contact*/
+
+.clearfix{clear: both}
+.contact{
+    background-color: #252F31;
+    overflow: hidden;
+    margin-top: 40px;
+    padding: 0 0 40px 60px;
+}
+
+.contact h2{
+    color: #FFF;
+    margin:40px 0px 30px 0px;
+}
+
+.contact p{
+    margin-bottom: 25px;
+    line-height: 1.6;
+    color: #666;
+}
+
+.contact .info .social h3{
+    color: white;
+    font-size: 20px;
+    opacity: 0.9;
+}
+.contact .info .social p{
+    margin: 10px 30px;
+}
+.contact .info span{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 18px;
+}
+
+.contact .info{
+    width: 45%;
+    margin-right: 5%;
+    float: left;
+    padding-left: 40px;
+}
+.contact .address{
+    width: 50%;
+    float: left;
+    margin-top: 40px;
+}
+
+.address h1{
+    font-size: 28px;
+    margin: 0 0 30px;
+    color: white
+}
+.address p{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 1.7;
+    color: #fff;
+    opacity: 0.5;
+}
+.address .strong{
+    font-weight: bold;
+    color: white;
+    opacity: 0.8;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.address h2{
+    font-size: 26px;
+    color: white;
+    opacity: 0.9;
+    margin-bottom: 10px;
+}
+.address address{
+    letter-spacing: 1px;
+    line-height: 1.7;
+    color: #666;
+    margin-left: 30px;
+}
+
+/*start footer */
+.footer{
+    background-color: #191E22;
+    padding: 20px;
+    color: #6A6E71;
+    text-align: center;
+    height: 80px;
+}
+
+
+
+.theTitle{
+    color: rgba(0,0,0,0.8);
+    font-size: 40px;
+    text-align: center;
+    margin: 60px 0 40px;
+    letter-spacing: 3px;
+}
+
+.buyNow{
+    color: brown;
+    text-decoration: none;
+}
+
+.id{
+    display: block;
+    color: rgba(255, 0, 0, 0.8) !important;
+}
+

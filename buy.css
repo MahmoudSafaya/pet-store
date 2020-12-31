@@ -1,0 +1,59 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+}
+
+
+
+.buy{
+  width: 40%;
+  margin: 5% auto;
+  background: none;
+  border: 1px solid #333;
+  border-radius: 10px;
+}
+
+.buyH h1{
+  color: rgb(66, 66, 238);
+  font-size: 32px;
+  text-align: center;
+  margin-top: 40px;
+}
+.buy{
+  margin-top: 60px
+}
+
+.buy .form label{
+  display: block;
+  margin: 10px 40px;
+  color: #888;
+  width: 100px;
+  font-weight: bold;
+}
+
+.buy .form input[type="text"],
+.buy .form input[type="email"]{
+    border: 1px solid #999;
+    padding: 5px;
+    border-radius: 7px;
+    width: 65%;
+    color: white;
+    margin: 0 40px;
+}
+.buy .form input[type="submit"]{
+    display: block;
+    border: 1px solid #999;
+    padding: 5px;
+    border-radius: 7px;
+    width: 20%;
+    background-color: #222;
+    color: #999;
+    margin: 10px 40px;
+    cursor: pointer;
+}
+
+
+
